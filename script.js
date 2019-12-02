@@ -27,3 +27,5 @@ let episodeDuration = 40;
 let hasBeenWatched = 'True';
 
 console.log(episodeTitle, episodeDuration, hasBeenWatched);
+
+/*Exercice 5*/
