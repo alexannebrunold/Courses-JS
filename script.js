@@ -19,3 +19,7 @@ const minutesPerhours = 60;
 const secondsPerminutes = 60;
 
 console.log(hoursPerDays, minutesPerhours, secondsPerminutes);
+
+/* Exercice 4*/
+
+g
