@@ -22,4 +22,6 @@ console.log(hoursPerDays, minutesPerhours, secondsPerminutes);
 
 /* Exercice 4*/
 
-g
+let episodeTitle = 'Titre de la série';
+let episodeDuration = 40;
+let hasBeenWatched = True;
