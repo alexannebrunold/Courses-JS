@@ -18,10 +18,12 @@ const hoursPerDays = 24;
 const minutesPerhours = 60;
 const secondsPerminutes = 60;
 
-console.log(hoursPerDays, minutesPerhours, secondsPerminutes);
+//console.log(hoursPerDays, minutesPerhours, secondsPerminutes);
 
 /* Exercice 4*/
 
 let episodeTitle = 'Titre de la série';
 let episodeDuration = 40;
-let hasBeenWatched = True;
+let hasBeenWatched = 'True';
+
+console.log(episodeTitle, episodeDuration, hasBeenWatched);
