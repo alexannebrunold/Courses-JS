@@ -22,10 +22,19 @@ const secondsPerminutes = 60;
 
 /* Exercice 4*/
 
-let episodeTitle = 'Titre de la série';
-let episodeDuration = 40;
-let hasBeenWatched = 'True';
+//let episodeTitle = 'Titre de la série';
+//let episodeDuration = 40;
+//let hasBeenWatched = 'True';
 
-console.log(episodeTitle, episodeDuration, hasBeenWatched);
+//console.log(episodeTitle, episodeDuration, hasBeenWatched);
 
 /*Exercice 5*/
+
+
+let episode = {
+  title: 'Titre de lépisode',
+  duration: 40,
+  hasBeenWatched: 'True'
+}
+
+console.log(episode);
