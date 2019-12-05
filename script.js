@@ -49,7 +49,7 @@ let episodeHasBeenWatched = episode.hasBeenWatched;*/
 
 /* Exercice 7 */
 
-class Episode {
+/*class Episode {
   constructor(title, duration, hasBeenWatched) {
 
     this.title = title;
@@ -60,8 +60,22 @@ class Episode {
 
 let firstEpisode = new Episode("Le Titre", 40, 'True');
 let secondEpisode = new Episode("Le Titre 2", 30, 'False');
-let thirdEpisode = new Episode("Le Titre 3", 35, 'True');
+let thirdEpisode = new Episode("Le Titre 3", 35, 'True');*/
 
-console.log(firstEpisode);
+//console.log(firstEpisode); 
+
+/* Exercice 8 */
+
+let episodes = [];
+
+let firstEpisode = 'Episode 1';
+let secondEpisode = 'Episode 2';
+let thirdEpisode = 'Episode 3';
+
+console.log(firstEpisode, secondEpisode, thirdEpisode);
+
+
+
+
 
 
