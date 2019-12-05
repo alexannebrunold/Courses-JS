@@ -1,22 +1,22 @@
 /*Exercice 1*/
-let numberOfSeasons = 6;
-let numberOfEpisodes = 12;
+//let numberOfSeasons = 6;
+//let numberOfEpisodes = 12;
 //console.log(numberOfSeasons, numberOfEpisodes);
 
 /*Exercice 2 */
 
-let episodeTime = 45;
+/*let episodeTime = 45;
 let commercialTime = 5;
 
-let totalShowTime = episodeTime + commercialTime * numberOfSeasons + numberOfEpisodes;
+let totalShowTime = episodeTime + commercialTime * numberOfSeasons + numberOfEpisodes;*/
 
 //console.log(totalShowTime);
 
 /*Exercice 3*/
 
-const hoursPerDays = 24;
+/*const hoursPerDays = 24;
 const minutesPerhours = 60;
-const secondsPerminutes = 60;
+const secondsPerminutes = 60;*/
 
 //console.log(hoursPerDays, minutesPerhours, secondsPerminutes);
 
@@ -31,20 +31,37 @@ const secondsPerminutes = 60;
 /*Exercice 5*/
 
 
-let episode = {
+/*let episode = {
   title: 'Titre de lépisode',
   duration: 40,
   hasBeenWatched: 'True'
-}
+}*/
 
 //console.log(episode);
 
 /* Exercice 6 */
 
-let episodeTitle = episode.title;
+/*let episodeTitle = episode.title;
 let episodeDuration = episode.duration;
-let episodeHasBeenWatched = episode.hasBeenWatched;
+let episodeHasBeenWatched = episode.hasBeenWatched;*/
 
-console.log(episodeTitle, episodeDuration, episodeHasBeenWatched);
+//console.log(episodeTitle, episodeDuration, episodeHasBeenWatched);
+
+/* Exercice 7 */
+
+class Episode {
+  constructor(title, duration, hasBeenWatched) {
+
+    this.title = title;
+    this.duration = duration;
+    this.hasBeenWatched = hasBeenWatched;
+  }
+}
+
+let firstEpisode = new Episode("Le Titre", 40, 'True');
+let secondEpisode = new Episode("Le Titre 2", 30, 'False');
+let thirdEpisode = new Episode("Le Titre 3", 35, 'True');
+
+console.log(firstEpisode);
 
 
