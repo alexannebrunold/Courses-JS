@@ -37,4 +37,14 @@ let episode = {
   hasBeenWatched: 'True'
 }
 
-console.log(episode);
+//console.log(episode);
+
+/* Exercice 6 */
+
+let episodeTitle = episode.title;
+let episodeDuration = episode.duration;
+let episodeHasBeenWatched = episode.hasBeenWatched;
+
+console.log(episodeTitle, episodeDuration, episodeHasBeenWatched);
+
+
