@@ -76,8 +76,8 @@ console.log(firstEpisode, secondEpisode, thirdEpisode);*/
 
 /* Exercice 9 */
 
-class Episode {
-  constructor(title, duration, hasBeenWatched) {
+/*class Episode {
+  constructor(title, duration, minutesWatched) {
 
     this.title = title;
     this.duration = duration;
@@ -85,7 +85,7 @@ class Episode {
   }
 }
 
-let firstEpisode = new Episode("Le Titre", 40, 'True');
+/*let firstEpisode = new Episode("Le Titre", 40, 'True');
 let secondEpisode = new Episode("Le Titre 2", 30, 'False');
 let thirdEpisode = new Episode("Le Titre 3", 35, 'True');
 
@@ -97,10 +97,36 @@ episodes.push("Le Titre 3");
 
 episodes.pop();
 
-episodes.numberOfepisodes = episodes.length;
+episodes.numberOfepisodes = episodes.length;*/
+
+//console.log(episodes);
+
+/* Exercice 10 */
+
+class Episode {
+  constructor(title, duration, minutesWatched) {
+
+    this.title = title;
+    this.duration = duration;
+
+
+    if (minutesWatched === duration) {
+      this.hasBeenWatched = true;
+    }
+    else if (minutesWatched >= 0) {
+      this.hasBeenWatched = false;
+    }
+  }
+}
+
+
+let firstEpisode = new Episode('Episode 1', 45, 45);
+let secondEpisode = new Episode('Episode 2', 45, 10);
+let thirdEpisode = new Episode('Episode 3', 60, 0);
+
+let episodes = [firstEpisode, secondEpisode, thirdEpisode];
 
 console.log(episodes);
-
 
 
 
