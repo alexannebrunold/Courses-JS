@@ -103,7 +103,7 @@ episodes.numberOfepisodes = episodes.length;*/
 
 /* Exercice 10 */
 
-class Episode {
+/*class Episode {
   constructor(title, duration, minutesWatched) {
 
     this.title = title;
@@ -124,11 +124,39 @@ let firstEpisode = new Episode('Episode 1', 45, 45);
 let secondEpisode = new Episode('Episode 2', 45, 10);
 let thirdEpisode = new Episode('Episode 3', 60, 0);
 
+let episodes = [firstEpisode, secondEpisode, thirdEpisode];*/
+
+//console.log(episodes);
+
+/* Exercice 11 */
+
+class Episode {
+  constructor(title, duration, minutesWatched) {
+
+    this.title = title;
+    this.duration = duration;
+    //this.watchedText = true || false;
+
+    if (minutesWatched === 0) {
+      this.watchedText = 'Pas encore regardé' && false;
+    }
+
+    else if (minutesWatched > 0 && minutesWatched < duration) {
+      this.watchedText = 'En train de regarder' && true;
+    }
+
+    else {
+      this.watchedText = 'Déjà regardé' && false;
+    }
+  }
+}
+
+let firstEpisode = new Episode('Episode 1', 45, 45);
+let secondEpisode = new Episode('Episode 2', 45, 10);
+let thirdEpisode = new Episode('Episode 3', 60, 0);
+
 let episodes = [firstEpisode, secondEpisode, thirdEpisode];
 
 console.log(episodes);
-
-
-
 
 
